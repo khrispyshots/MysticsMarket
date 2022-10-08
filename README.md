@@ -2,7 +2,7 @@
 <img src="/assets/logo02.png" alt="Alt text logo" title="Logo" width="80px" height="80px">
 </p>
 
-# Polyplace
+# Mystic Market
 
 An open decentralized NFT Marketplace built with Solidity and Next.js, powered by Polygon Technologies. It basically is an open platform where users can mint and trade their own NFTs.
 
@@ -24,11 +24,11 @@ An open platform where users can mint their own NFTs and list them on a Marketpl
 
 `NFTMarketplace` Polygon(Mumbai Testnet) smart contract address:
 
-https://mumbai.polygonscan.com/address/0xF5f6B924332C350E3Fcd3A50Fc94db822f0B760f
+
 
 ### Demo video
 
-https://www.youtube.com/watch?v=kVIb7MGJ53k&t=36s
+
 
 ### Project details
 
@@ -64,7 +64,7 @@ Another way to connect to Mumbai Testnet is by using the following link: https:/
 
 ### Getting test MATIC
 
-You can get up to 2 MATIC/day by pasting your address here: https://mumbaifaucet.com/.
+You can get up to 2 MATIC/day by pasting your address here: 
 
 
 ## Developers

@@ -114,7 +114,7 @@ const AssetDetails = () => {
             : currentAccount === nft.owner.toLowerCase()
               ? (
                 <Button
-                  btnName="List on Polyplace"
+                  btnName="List on Mystic Market"
                   btnType="primary"
                   classStyles="mr-5 sm:mr-0 sm:mb-5 rounded-xl"
                   handleClick={() => router.push(`/resell-nft?id=${nft.tokenId}&tokenURI=${nft.tokenURI}`)}

@@ -102,9 +102,10 @@ const Home = () => {
 
   return (
     <div className="flex justify-center sm:px-4 p-12">
-      <div className="w-full minmd:w-4/5">
+      <div className="w-max minmd:w-2/5">
         <Banner
-          name="NFT's are birth certificates for the offspring of creators."
+          name="Welcome to the First NFT Marketplace on
+          CoinEx Smart Chain"
           childStyles="md:text-4xl sm:text-2xl xs:text-xl text-center"
           parentStyles="justify-start mb-6 h-72 sm:h-60 p-12 xs:p-4 xs:h-44 rounded-3xl"
         />

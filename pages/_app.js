@@ -11,7 +11,7 @@ const MyApp = ({ Component, pageProps }) => (
     <ThemeProvider attribute="class">
       <div className="dark:bg-nft-dark bg-white min-h-screen">
         <Head>
-          <title>Polyplace</title>
+          <title>Mystic Market</title>
           <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         </Head>
         <Navbar />
