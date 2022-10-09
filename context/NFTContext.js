@@ -6,13 +6,13 @@ import { create as ipfsHttpClient } from 'ipfs-http-client';
 
 import { MarketAddress, MarketAddressABI } from './constants';
 
-const subdomainName = 'mysticmarket';
+
 const projectId = '2FtEfQLAgU0uCe5J7v6mlmTa1Uh';
 const projectSecret = '7a8f21b9c343928e74f7d56d6c0557e9';
 
 const authorization = `Basic ${btoa(`${projectId}:${projectSecret}`)}`;
 
-const endpointBasePath = `https://${subdomainName}.infura-ipfs.io/ipfs/`;
+const endpointBasePath = `https://mysticmarket.infura-ipfs.io/ipfs/`;
 
 const client = ipfsHttpClient({
   url: 'https://ipfs.infura.io:5001/api/v0',
