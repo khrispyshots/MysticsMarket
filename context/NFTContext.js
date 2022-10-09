@@ -7,8 +7,8 @@ import { create as ipfsHttpClient } from 'ipfs-http-client';
 import { MarketAddress, MarketAddressABI } from './constants';
 
 const subdomainName = 'mysticmarket';
-const projectId = '2DZ5SclLb6YJBoDvir5Rh96PAVt';
-const projectSecret = 'd44b2bde4d2bb227907264225330c102';
+const projectId = '2FtEfQLAgU0uCe5J7v6mlmTa1Uh';
+const projectSecret = '7a8f21b9c343928e74f7d56d6c0557e9';
 
 const authorization = `Basic ${btoa(`${projectId}:${projectSecret}`)}`;
 
@@ -26,7 +26,7 @@ const fetchContract = (signerOrProvider) => new ethers.Contract(MarketAddress, M
 export const NFTContext = React.createContext();
 
 export const NFTProvider = ({ children }) => {
-  const nftCurrency = 'MATIC';
+  const nftCurrency = 'CET';
   const [currentAccount, setCurrentAccount] = useState('');
   const [isLoadingNFT, setIsLoadingNFT] = useState(false);
 
