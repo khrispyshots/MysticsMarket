@@ -4,7 +4,7 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   images: {
-    domains: ['polyplace.infura-ipfs.io'],
+    domains: ['mysticmarket.infura-ipfs.io'],
   },
 };
 
