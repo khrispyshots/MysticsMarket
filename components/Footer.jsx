@@ -50,7 +50,7 @@ const Footer = () => {
             <h2 className="font-poppins dark:text-white text-nft-black-1 font-semibold text-xl mb-10">Support</h2>
             <ul className="text-gray-600 dark:text-gray-400">
              <li className="mb-3">
-                <a href="" target="_blank" className="font-poppins dark:text-white text-nft-black-1 font-normal text-base cursor-pointer dark:hover:text-nft-gray-1 hover:text-nft-black-1 my-3 transition duration-300" rel="noreferrer">Mystci Documentation</a>
+                <a href="" target="_blank" className="font-poppins dark:text-white text-nft-black-1 font-normal text-base cursor-pointer dark:hover:text-nft-gray-1 hover:text-nft-black-1 my-3 transition duration-300" rel="noreferrer">Mystic Documentation</a>
               </li>
               <li className="mb-3">
                 <a href="" target="_blank" className="font-poppins dark:text-white text-nft-black-1 font-normal text-base cursor-pointer dark:hover:text-nft-gray-1 hover:text-nft-black-1 my-3 transition duration-300" rel="noreferrer">CoinEx Documentation</a>
@@ -59,7 +59,7 @@ const Footer = () => {
                 <a href="" target="_blank" className="font-poppins dark:text-white text-nft-black-1 font-normal text-base cursor-pointer dark:hover:text-nft-gray-1 hover:text-nft-black-1 my-3 transition duration-300" rel="noreferrer">CoinEx Explorer</a>
               </li>
               <li className="mb-3">
-                <a href="" target="_blank" className="font-poppins dark:text-white text-nft-black-1 font-normal text-base cursor-pointer dark:hover:text-nft-gray-1 hover:text-nft-black-1 my-3 transition duration-300" rel="noreferrer">CoinEx Test Faucet</a>
+                <a href="" target="_blank" className="font-poppins dark:text-white text-nft-black-1 font-normal text-base cursor-pointer dark:hover:text-nft-gray-1 hover:text-nft-black-1 my-3 transition duration-300" rel="https://testnet.coinex.net/faucet">CoinEx Test Faucet</a>
               </li>
             </ul>
           </div>
